@@ -5,10 +5,15 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
+Get, Post, Put, 
 2. What is Sinatra?
+A framework for ruby to deploy web applications.
 4. What is MVC?
+Models, views, controller. 
 5. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
+Because they're conventions?
 6. What types of variables are accessible in our view templates without explicitly passing them?
+Instance variables.
 7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
   
   ```ruby
