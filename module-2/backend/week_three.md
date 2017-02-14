@@ -16,7 +16,7 @@ ApplicationRecord
 3. What do Controllers generally inherit from in a rails project?
 ApplicationController
 4. How would I create a route if I wanted to see a specific horse in my routes fitle assuming I'm sticking to standard conventions and that I didn't want other CRUD functionality?
-Within the routes file, include "resources :horse, only: :show"
+Within the routes file, include "resources :horse, only: [:show]"
 5. What rake task is useful when looking at routes, and what information does it give you?
 rake routes is AMAZING. It gives you the prefix that you would use when referencing a path, the HTTP verb, the URI pattern and the Controller#Action (controller method). 
 6. What is an example of a route helper? When would you use them?
