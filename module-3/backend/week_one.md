@@ -4,6 +4,7 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 
 Note: When you're done, submit a PR. 
 
+<<<<<<< HEAD
 1. What is `json`, what does it stand for, and why is it important?
 1. What kind of object is JSON in Ruby? How do we know it's JSON?
 1. What's the difference between `joins` and `includes` in ActiveRecord?
@@ -33,3 +34,25 @@ Rate yourself on the following scale.
 1  I am feeling lost about with these concepts and had to look many things up ^^  
 
 ^^ Please let an instructor know where you'd like support to catch you up. 
+=======
+1. What is `json` and why is it important?
+```
+JSON is what APIs are generally displayed as (or XML). It takes the information from a database and outputs it so that it can be consumed by a front end or someone else who wants the data. The controller is where json is rendered. 
+```
+2. What's the difference between `joins` and `includes` in ActiveRecord?
+``` 
+What is includes? Really no idea. Joins literally joins up two or more tables based off of like attributes. I'm assuming that includes will select different tables that include a specific attribute? 
+```
+3. What's an API?
+```
+Application Programming Interface - returns information from a database structured in JSON or XML in response to HTTP request messages. 
+```
+4. How do we test an internal API (in general)?
+```
+Response tests!
+```
+5. What are two different ways to customize your `json`?
+```
+jbuilder and active model serializers. 
+```
+>>>>>>> 8d08c119345e078a951f8902205d19d5ab9030ce
